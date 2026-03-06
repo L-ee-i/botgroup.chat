@@ -7,7 +7,7 @@ export const modelConfigs = [
   },
   {
     model: "deepseek-v3-250324",
-    apiKey: "sk-086e7c2ddcf5427a838cdc2cf64a9db8",
+    apiKey:  process.env.ARK_API_KEY,
     baseURL: "https://ark.cn-beijing.volces.com/api/v3"
   },
   {
